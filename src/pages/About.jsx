@@ -22,7 +22,7 @@ const timeline = [
     role: 'Brand identity Design.',
     org: 'self-employed',
     description:
-      'Designed and shipped in creating visuals idetity of a brand 0f business or organization.'
+      'Designed and shipped in creating visuals identity of a brand for business or organization.'
   },
   {
     year: 'july 2024',
