@@ -82,7 +82,7 @@ export default function Hero() {
         >
           <span className="absolute inset-0 rounded-full border border-gold-400/25 animate-spin-slow" />
           <span className="absolute inset-6 rounded-full border border-dashed border-gold-400/20 animated-spin-slower"/>
-          <img src="/public/Dc profile pic.jpeg" alt="Didon, founder of DIDON CREA8IVE" className="h-56 w-56 rounded-full border-2 border-gold-400/60
+          <img src="/Dc profile pic.jpeg" alt="Didon, founder of DIDON CREA8IVE" className="h-56 w-56 rounded-full border-2 border-gold-400/60
           object-cover shadow-goldlg sm:h- 72 sm:w- 72"/>
         </motion.div>
       </div>

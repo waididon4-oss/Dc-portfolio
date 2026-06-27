@@ -24,9 +24,11 @@ export default function Home() {
             transition={{ duration: 0.6 }}
             className="relative mx-auto h-64 w-64 rounded-full border border-gold-400/30 bg-gold-radial sm:h-80 sm:w-80"
           >
-            <div className="absolute inset-6 rounded-full border border-gold-400/20 flex items-center justify-center">
-              <span className="font-display italic text-6xl text-gold-gradient">DC</span>
-            </div>
+                   <img
+  src="/Dc profile pic 2.jpeg"
+  alt="Didon, founder of DIDON CREA8IVE"
+  className="h-full w-full rounded-full object-cover"
+/>
           </motion.div>
 
           <div>
