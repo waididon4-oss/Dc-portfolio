@@ -73,7 +73,7 @@ export default function About() {
 
           <div>
             <SectionHeading eyebrow="About Me" title="The person behind the work.">
-              I'm Daniel waida Founder of DIDON CREA8IVE, an independent freelancing working
+              I'm Daniel waida Founder of DIDON CREA8IVE, an independent freelancer, working
               with founders and small studios who want their brand to feel
               considered, not templated. I trained as both a designer and a
               developer, which means I design with the constraints of code
