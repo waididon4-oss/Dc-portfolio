@@ -48,8 +48,8 @@ export default function Hero() {
             <Button to="/projects" variant="primary">
               View My Work
             </Button>
-            <Button href="/resume.pdf" variant="outline" download>
-              Download CV
+            <Button href="resume .pdf" variant="outline" download>Download CV
+               
             </Button>
           </motion.div>
 

@@ -4,16 +4,12 @@ import SkillRing from '../components/SkillRing.jsx'
 import { skillGroups } from '../data/skills.js'
 
 const tools = [
-  'Figma',
   'React',
   'Vite',
   'Tailwind CSS',
-  'Framer Motion',
-  'Adobe Illustrator',
+  'PexilLab App',
   'Adobe Photoshop',
-  'Notion',
-  'GitHub',
-  'Webflow'
+  'HTML canva'
 ]
 
 export default function Skills() {
