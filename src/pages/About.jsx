@@ -62,10 +62,11 @@ export default function About() {
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
             className="relative mx-auto h-72 w-72 rounded-full border border-gold-400/30 bg-gold-radial sm:h-80 sm:w-80"
+            
           >
-            <img src="/Dc pro file pic 1.jpeg" alt="Photo of Didon, founder of DIDON CREA8IVE"
-             className="Absolute inset-6 h-full w-full rounded-full object-cover"/>
-            <span className="absolute -bottom-3 left-1/2 -translate-x-1/2 rounded-full
+            <img src="AirBrush_20260719144128.jpg" alt="Photo of Didon, founder of DIDON CREA8IVE"
+             className="Absolute inset-6 h-full w-full rounded-xL object-cover"/>
+            <span className="absolute -bottom-3 left-1/2 -translate-x-1/2 rounded-xL
              border border-gold-400/40 bg-ivory dark:bg-ink px-5 py-2 text-xs eyebrow text-gold-500 dark:text-gold-300">
               Designer / Developer
             </span>

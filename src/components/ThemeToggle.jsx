@@ -22,3 +22,4 @@ export default function ThemeToggle() {
     </button>
   )
 }
+0

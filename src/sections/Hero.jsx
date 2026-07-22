@@ -80,9 +80,8 @@ export default function Hero() {
           transition={{ duration: 0.8, delay: 0.2 }}
           className="relative mx-auto flex h-72 w-72 items-center justify-center sm:h-96 sm:w-96"
         >
-          <span className="absolute inset-0 rounded-full border border-gold-400/25 animate-spin-slow" />
-          <span className="absolute inset-6 rounded-full border border-dashed border-gold-400/20 animated-spin-slower"/>
-          <img src="/Dc profile pic.jpeg" alt="Didon, founder of DIDON CREA8IVE" className="h-56 w-56 rounded-full border-2 border-gold-400/60
+
+          <img src="AirBrush_20260713160447.jpg" alt="Didon, founder of DIDON CREA8IVE" className="h-56 w-56 rounded-xL border-2 border-gold-400/60
           object-cover shadow-goldlg sm:h- 72 sm:w- 72"/>
         </motion.div>
       </div>

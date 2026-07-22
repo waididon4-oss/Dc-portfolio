@@ -25,9 +25,9 @@ export default function Home() {
             className="relative mx-auto h-64 w-64 rounded-full border border-gold-400/30 bg-gold-radial sm:h-80 sm:w-80"
           >
                    <img
-  src="/Dc profile pic 2.jpeg"
+  src="AirBrush_20260321185129_1_20260325165606_1.png"
   alt="Didon, founder of DIDON CREA8IVE"
-  className="h-full w-full rounded-full object-cover"
+  className="h-full w-full rounded-xL l object-cover"
 />
           </motion.div>
 
