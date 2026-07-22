@@ -81,7 +81,7 @@ export default function Hero() {
           className="relative mx-auto flex h-72 w-72 items-center justify-center sm:h-96 sm:w-96"
         >
 
-          <img src="AirBrush_20260713160447.jpg" alt="Didon, founder of DIDON CREA8IVE" className="h-56 w-56 rounded-xL border-2 border-gold-400/60
+          <img src="/Dc Hero jsx profile.jpg" alt="Didon, founder of DIDON CREA8IVE" className="h-56 w-56 rounded-xL border-2 border-gold-400/60
           object-cover shadow-goldlg sm:h- 72 sm:w- 72"/>
         </motion.div>
       </div>
