@@ -60,7 +60,7 @@ export default function Hero() {
             className="mt-14 flex flex-wrap gap-10"
           >
             {[
-              ['2', 'Deciplines Design & code'],
+              ['2', 'Disciplines Design & code'],
               ['DIDON', 'CREA8IVE space'],
               ['100%', 'Client First Approach']
             ].map(([value, label]) => (
