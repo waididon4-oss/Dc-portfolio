@@ -29,11 +29,11 @@ export default function Contact() {
             <div className="space-y-6">
               {contactDetails.map((item) => (
                 <div key={item.label}>
-                  <p className="eyebrow text-gold-500 dark:text-gold-300">{item.label}</p>
+                  <p className="eyebrow text-white-500 dark:text-white-300">{item.label}</p>
                   {item.href ? (
                     <a
                       href={item.href}
-                      className="mt-1 block text-lg font-medium hover:text-gold-500 dark:hover:text-gold-300"
+                      className="mt-1 block text-lg font-medium hover:text-white-500 dark:hover:text-white-300"
                     >
                       {item.value}
                     </a>
@@ -45,7 +45,7 @@ export default function Contact() {
             </div>
 
             <div>
-              <p className="eyebrow text-gold-500 dark:text-gold-300 mb-4">Follow</p>
+              <p className="eyebrow text-white-500 dark:text-white-300 mb-4">Follow</p>
               <ul className="flex gap-3">
                 {socialLinks.map((social) => (
                   <li key={social.label}>
@@ -54,7 +54,7 @@ export default function Contact() {
                       target="_blank"
                       rel="noreferrer noopener"
                       aria-label={social.label}
-                      className="flex h-11 w-11 items-center justify-center rounded-full border border-gold-400/40 text-gold-500 dark:text-gold-300 transition-colors hover:bg-gold-400/10"
+                      className="flex h-11 w-11 items-center justify-center rounded-full border border-white-400/40 text-white-500 dark:text-gold-300 transition-colors hover:bg-gold-400/10"
                     >
                       {social.icon}
                     </a>
@@ -69,7 +69,7 @@ export default function Contact() {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.5, delay: 0.1 }}
-            className="rounded-2xl border border-gold-400/20 bg-ink-soft/30 dark:bg-ink-soft/60 p-8"
+            className="rounded-2xl border border-white-400/20 bg-ink-soft/30 dark:bg-ink-soft/60 p-8"
           >
             <ContactForm />
           </motion.div>

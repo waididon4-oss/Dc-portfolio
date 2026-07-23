@@ -45,7 +45,7 @@ export default function ContactForm() {
   }
 
   const inputClass =
-    'w-full rounded-lg border border-gold-400/25 bg-transparent px-4 py-3 text-sm outline-none transition-colors placeholder:text-ink/40 dark:placeholder:text-ivory/35 focus:border-gold-400'
+    'w-full rounded-lg border border-white-400/25 bg-transparent px-4 py-3 text-sm outline-none transition-colors placeholder:text-ink/40 dark:placeholder:text-ivory/35 focus:border-white-400'
 
   return (
     <form
@@ -141,7 +141,7 @@ export default function ContactForm() {
       <button
         type="submit"
         disabled={status === 'submitting'}
-        className="inline-flex w-full items-center justify-center gap-2 rounded-full bg-gold-gradient px-7 py-3.5 text-sm font-semibold text-ink shadow-gold transition-all duration-300 hover:shadow-goldLg disabled:cursor-not-allowed disabled:opacity-70 sm:w-auto"
+        className="inline-flex w-full items-center justify-center gap-2 rounded-full bg-white-gradient px-7 py-3.5 text-sm font-semibold text-ink shadow-gold transition-all duration-300 hover:shadow-goldLg disabled:cursor-not-allowed disabled:opacity-70 sm:w-auto"
       >
         {status === 'submitting' ? 'Sending…' : 'Send Message'}
       </button>
@@ -153,7 +153,7 @@ export default function ContactForm() {
               initial={{ opacity: 0, y: 6 }}
               animate={{ opacity: 1, y: 0 }}
               exit={{ opacity: 0 }}
-              className="text-sm text-gold-500 dark:text-gold-300"
+              className="text-sm text-white-500 dark:text-white-300"
             >
               Thank you — your message has been sent. I will get back to you soon.
             </motion.p>

@@ -22,7 +22,7 @@ export default function Home() {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
-            className="relative mx-auto h-64 w-64 rounded-full border border-gold-400/30 bg-gold-radial sm:h-80 sm:w-80"
+            className="relative mx-auto h-64 w-64 rounded-full border border-white-400/30 bg-white-radial sm:h-80 sm:w-80"
           >
                    <img
   src="/Dc About profile.png"
@@ -88,7 +88,7 @@ export default function Home() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
-          className="mx-auto max-w-4xl rounded-3xl border border-gold-400/25 bg-gold-radial px-8 py-16 text-center"
+          className="mx-auto max-w-4xl rounded-3xl border border-white-400/25 bg-white-radial px-8 py-16 text-center"
         >
           <h2 className="font-display text-4xl sm:text-5xl">
             Have a project in mind?

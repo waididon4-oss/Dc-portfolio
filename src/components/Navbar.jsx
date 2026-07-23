@@ -33,15 +33,15 @@ export default function Navbar() {
   const linkClass = ({ isActive }) =>
     `relative py-1 text-sm font-medium tracking-wide transition-colors ${
       isActive
-        ? 'text-gold-500 dark:text-gold-300'
-        : 'text-ink/75 dark:text-ivory/75 hover:text-gold-500 dark:hover:text-gold-300'
+        ? 'text-white-500 dark:text-white-300'
+        : 'text-ink/75 dark:text-ivory/75 hover:text-white-500 dark:hover:text-white-300'
     }`
 
   return (
     <header
       className={`fixed inset-x-0 top-0 z-50 transition-all duration-300 ${
         scrolled
-          ? 'bg-ivory/90 dark:bg-ink/90 backdrop-blur-md border-b border-gold-400/15 shadow-[0_1px_0_rgba(212,175,55,0.08)]'
+          ? 'bg-ivory/90 dark:bg-ink/90 backdrop-blur-md border-b border-white-400/15 shadow-[0_1px_0_rgba(212,175,55,0.08)]'
           : 'bg-transparent'
       }`}
     >
@@ -52,7 +52,7 @@ export default function Navbar() {
         <NavLink to="/" className="flex items-center gap-3" aria-label="DC Portfolio home">
           <Logo size={40} />
           <span className="font-display text-lg tracking-wide hidden sm:inline">
-            DC <span className="text-gold-500 dark:text-gold-300">Portfolio</span>
+            DC <span className="text-white-500 dark:text-white-300">Portfolio</span>
           </span>
         </NavLink>
 
@@ -65,7 +65,7 @@ export default function Navbar() {
                   {isActive && (
                     <motion.span
                       layoutId="nav-underline"
-                      className="absolute -bottom-1 left-0 right-0 h-px bg-gold-400"
+                      className="absolute -bottom-1 left-0 right-0 h-px bg-white-400"
                     />
                   )}
                 </>
@@ -84,7 +84,7 @@ export default function Navbar() {
             onClick={() => setOpen(true)}
             aria-label="Open menu"
             aria-expanded={open}
-            className="flex h-10 w-10 flex-col items-center justify-center gap-1.5 rounded-full border border-gold-400/40"
+            className="flex h-10 w-10 flex-col items-center justify-center gap-1.5 rounded-full border border-white-400/40"
           >
             <span className="block h-px w-5 bg-current" />
             <span className="block h-px w-5 bg-current" />
@@ -115,7 +115,7 @@ export default function Navbar() {
                 <button
                   onClick={() => setOpen(false)}
                   aria-label="Close menu"
-                  className="text-2xl leading-none text-gold-500"
+                  className="text-2xl leading-none text-white-500"
                 >
                   &times;
                 </button>
@@ -133,7 +133,7 @@ export default function Navbar() {
                       onClick={() => setOpen(false)}
                       className={({ isActive }) =>
                         `font-display text-2xl ${
-                          isActive ? 'text-gold-500' : 'text-ink dark:text-ivory'
+                          isActive ? 'text-white-500' : 'text-ink dark:text-ivory'
                         }`
                       }
                       end={link.to === '/'}

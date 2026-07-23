@@ -29,7 +29,7 @@ export default function Skills() {
                 whileInView={{ opacity: 1, x: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.5 }}
-                className="font-display text-2xl mb-10 text-gold-500 dark:text-gold-300"
+                className="font-display text-2xl mb-10 text-white-500 dark:text-white-300"
               >
                 {group.category}
               </motion.h3>
@@ -57,7 +57,7 @@ export default function Skills() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.4, delay: i * 0.04 }}
-                className="rounded-full border border-gold-400/30 px-5 py-2 text-sm text-ink/75 dark:text-ivory/75"
+                className="rounded-full border border-white-400/30 px-5 py-2 text-sm text-ink/75 dark:text-ivory/75"
               >
                 {tool}
               </motion.span>

@@ -61,13 +61,13 @@ export default function About() {
             whileInView={{ opacity: 1, scale: 1 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
-            className="relative mx-auto h-72 w-72 rounded-full border border-gold-400/30 bg-gold-radial sm:h-80 sm:w-80"
+            className="relative mx-auto h-72 w-72 rounded-full border border-white-400/30 bg-white-radial sm:h-80 sm:w-80"
             
           >
             <img src="/Dc About 2 profile.jpg" alt="Photo of Didon, founder of DIDON CREA8IVE"
              className="Absolute inset-6 h-full w-full rounded-xL object-cover"/>
             <span className="absolute -bottom-3 left-1/2 -translate-x-1/2 rounded-xL
-             border border-gold-400/40 bg-ivory dark:bg-ink px-5 py-2 text-xs eyebrow text-gold-500 dark:text-gold-300">
+             border border-white-400/40 bg-ivory dark:bg-ink px-5 py-2 text-xs eyebrow text-white-500 dark:text-white-300">
               Designer / Developer
             </span>
           </motion.div>
@@ -90,7 +90,7 @@ export default function About() {
               you'll usually find me watching football.
             </p>
 
-            <div className="mt-10 grid grid-cols-3 gap-6 border-t border-gold-400/20 pt-8 max-w-md">
+            <div className="mt-10 grid grid-cols-3 gap-6 border-t border-white-400/20 pt-8 max-w-md">
               {[
                 ['Based in', 'Remote / Worldwide'],
                 ['Availability', 'Open to projects'],
@@ -98,7 +98,7 @@ export default function About() {
               ].map(([label, value]) => (
                 <div key={label}>
                   <p className="text-xs text-ink/50 dark:text-ivory/50">{label}</p>
-                  <p className="mt-1 text-sm font-medium text-gold-500 dark:text-gold-300">
+                  <p className="mt-1 text-sm font-medium text-white-500 dark:text-white-300">
                     {value}
                   </p>
                 </div>
@@ -124,9 +124,9 @@ export default function About() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.5, delay: i * 0.1 }}
-                className="rounded-2xl border border-gold-400/20 p-8 bg-ink-soft/30 dark:bg-ink-soft/60"
+                className="rounded-2xl border border-white-400/20 p-8 bg-ink-soft/30 dark:bg-ink-soft/60"
               >
-                <h3 className="font-display text-2xl text-gold-500 dark:text-gold-300">
+                <h3 className="font-display text-2xl text-white-500 dark:text-white-300">
                   {value.title}
                 </h3>
                 <p className="mt-3 text-sm leading-relaxed text-ink/70 dark:text-ivory/65">
@@ -140,7 +140,7 @@ export default function About() {
         <section className="mt-28">
           <SectionHeading eyebrow="Journey" title="Where I've worked" align="center" />
           <div className="relative mt-14 mx-auto max-w-3xl">
-            <div className="absolute left-[7px] top-2 bottom-2 w-px bg-gold-400/30 sm:left-1/2" />
+            <div className="absolute left-[7px] top-2 bottom-2 w-px bg-white-400/30 sm:left-1/2" />
             <div className="space-y-12">
               {timeline.map((item, i) => (
                 <motion.div
@@ -153,8 +153,8 @@ export default function About() {
                     i % 2 === 0 ? 'sm:pr-12 sm:text-right' : 'sm:ml-auto sm:pl-12'
                   }`}
                 >
-                  <span className="absolute left-0 top-1.5 h-3.5 w-3.5 rounded-full bg-gold-400 sm:left-auto sm:right-[-7px]" />
-                  <p className="eyebrow text-gold-500 dark:text-gold-300">{item.year}</p>
+                  <span className="absolute left-0 top-1.5 h-3.5 w-3.5 rounded-full bg-white-400 sm:left-auto sm:right-[-7px]" />
+                  <p className="eyebrow text-white-500 dark:text-white-300">{item.year}</p>
                   <h3 className="font-display text-xl mt-1">{item.role}</h3>
                   <p className="text-sm text-ink/55 dark:text-ivory/55">{item.org}</p>
                   <p className="mt-2 text-sm leading-relaxed text-ink/70 dark:text-ivory/65">

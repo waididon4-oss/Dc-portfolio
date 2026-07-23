@@ -9,7 +9,7 @@ export default function SectionHeading({ eyebrow, title, align = 'left', childre
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.5 }}
-          className="eyebrow text-gold-500 dark:text-gold-300 mb-3"
+          className="eyebrow text-white-500 dark:text-white-300 mb-3"
         >
           {eyebrow}
         </motion.p>

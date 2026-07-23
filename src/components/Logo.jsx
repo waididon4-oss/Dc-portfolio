@@ -29,7 +29,7 @@ export default function Logo({ size = 44, animated = false, className = '' }) {
         }}
       />
       <span
-        className="relative font-display italic text-gold-gradient"
+        className="relative font-display italic text-white-gradient"
         style={{ fontSize: size * 0.42, lineHeight: 1 }}
       >
         DC

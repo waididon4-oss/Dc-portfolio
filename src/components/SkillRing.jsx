@@ -47,7 +47,7 @@ export default function SkillRing({ name, level, delay = 0 }) {
             transition={{ duration: 1.1, delay: delay + 0.15, ease: 'easeOut' }}
           />
         </svg>
-        <span className="absolute inset-0 flex items-center justify-center font-display text-xl text-gold-500 dark:text-gold-300">
+        <span className="absolute inset-0 flex items-center justify-center font-display text-xl text-white-500 dark:text-white-300">
           {level}%
         </span>
       </div>

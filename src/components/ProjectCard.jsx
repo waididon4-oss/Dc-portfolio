@@ -8,7 +8,7 @@ export default function ProjectCard({ project, index }) {
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true, margin: '-60px' }}
       transition={{ duration: 0.55, delay: (index % 3) * 0.08 }}
-      className="group relative overflow-hidden rounded-2xl border border-gold-400/20 bg-ink-soft/40 dark:bg-ink-soft"
+      className="group relative overflow-hidden rounded-2xl border border-white-400/20 bg-ink-soft/40 dark:bg-ink-soft"
     >
      <div className={`relative h-52 w-full overflow-hidden bg-gradient-to-br ${project.gradient}`}>
   {project.image ? (
@@ -21,14 +21,14 @@ export default function ProjectCard({ project, index }) {
     <>
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_20%,rgba(212,175,55,0.25),transparent_55%)]" />
       <div className="absolute inset-0 flex items-center justify-center opacity-20 transition-opacity duration-500 group-hover:opacity-35">
-        <span className="font-display text-7xl italic text-gold-200">DC</span>
+        <span className="font-display text-7xl italic text-white-200">DC</span>
       </div>
     </>
   )}
 </div> 
 
       <div className="p-6">
-        <p className="eyebrow text-gold-500 dark:text-gold-300 mb-2">{project.category}</p>
+        <p className="eyebrow text-white-500 dark:text-white-300 mb-2">{project.category}</p>
         <h3 className="font-display text-2xl mb-3">{project.title}</h3>
         <p className="text-sm leading-relaxed text-ink/70 dark:text-ivory/65 mb-5">
           {project.description}
@@ -38,7 +38,7 @@ export default function ProjectCard({ project, index }) {
             {project.tags.map((tag) => (
               <li
                 key={tag}
-                className="rounded-full border border-gold-400/30 px-3 py-1 text-xs text-ink/70 dark:text-ivory/70"
+                className="rounded-full border border-white-400/30 px-3 py-1 text-xs text-ink/70 dark:text-ivory/70"
               >
                 {tag}
               </li>
@@ -50,7 +50,7 @@ export default function ProjectCard({ project, index }) {
               if (project.link === '#') e.preventDefault()
             }}
             aria-label={`View ${project.title} project`}
-            className="ml-3 flex h-9 w-9 flex-shrink-0 items-center justify-center rounded-full border border-gold-400/40 text-gold-500 dark:text-gold-300 transition-transform duration-300 group-hover:translate-x-0.5 group-hover:-translate-y-0.5"
+            className="ml-3 flex h-9 w-9 flex-shrink-0 items-center justify-center rounded-full border border-white-400/40 text-white-500 dark:text-white-300 transition-transform duration-300 group-hover:translate-x-0.5 group-hover:-translate-y-0.5"
           >
             ↗
           </a>

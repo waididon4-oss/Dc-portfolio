@@ -12,7 +12,7 @@ export default function Hero() {
             initial={{ opacity: 0, y: 10 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
-            className="eyebrow text-gold-500 dark:text-gold-300 mb-5"
+            className="eyebrow text-white-500 dark:text-white-300 mb-5"
           >
             Graphics Designer &amp; Web developer
           </motion.p>
@@ -26,7 +26,7 @@ export default function Hero() {
             Designing brands
             <br />
             building{' '}
-            <span className="italic text-gold-gradient">digital experiences.</span>
+            <span className="italic text-white">digital experiences.</span>
           </motion.h1>
 
           <motion.p
@@ -61,11 +61,11 @@ export default function Hero() {
           >
             {[
               ['2', 'Deciplines Design & code'],
-              ['DIDON', 'CREA8IVE Studio'],
+              ['DIDON', 'CREA8IVE space'],
               ['100%', 'Client First Approach']
             ].map(([value, label]) => (
               <div key={label}>
-                <p className="font-display text-3xl text-gold-500 dark:text-gold-300">
+                <p className="font-display text-3xl text-white-500 dark:text-white-300">
                   {value}
                 </p>
                 <p className="text-xs text-ink/55 dark:text-ivory/55 mt-1">{label}</p>
@@ -81,8 +81,8 @@ export default function Hero() {
           className="relative mx-auto flex h-72 w-72 items-center justify-center sm:h-96 sm:w-96"
         >
 
-          <img src="/Dc Hero jsx profile.jpg" alt="Didon, founder of DIDON CREA8IVE" className="h-56 w-56 rounded-xL border-2 border-gold-400/60
-          object-cover shadow-goldlg sm:h- 72 sm:w- 72"/>
+          <img src="/Dc Hero jsx profile.jpg" alt="Didon, founder of DIDON CREA8IVE" className="h-56 w-56 rounded-xL border-2 border-white-400/60
+          object-cover shadow-whitelg sm:h- 72 sm:w- 72"/>
         </motion.div>
       </div>
     </section>

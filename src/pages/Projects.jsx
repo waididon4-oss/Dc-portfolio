@@ -31,8 +31,8 @@ export default function Projects() {
               aria-pressed={activeTag === tag}
               className={`rounded-full border px-4 py-1.5 text-sm transition-colors ${
                 activeTag === tag
-                  ? 'border-gold-400 bg-gold-400/15 text-gold-600 dark:text-gold-200'
-                  : 'border-gold-400/25 text-ink/65 dark:text-ivory/65 hover:border-gold-400/60'
+                  ? 'border-white-400 bg-white-400/15 text-white-600 dark:text-white-200'
+                  : 'border-white-400/25 text-ink/65 dark:text-ivory/65 hover:border-white-400/60'
               }`}
             >
               {tag}

@@ -1,6 +1,6 @@
 # DC Portfolio
 
-A premium, black-and-gold personal portfolio built with React, Vite, Tailwind CSS, and Framer Motion.
+A premium, black-and-white personal portfolio built with React, Vite, Tailwind CSS, and Framer Motion.
 
 ## Tech Stack
 
@@ -90,12 +90,12 @@ A few things are intentionally left for you to fill in with your own details:
 
 ## Theming
 
-Dark mode is the default. The toggle in the navbar switches a `dark` class on `<html>` and persists the choice in `localStorage`. All colors are defined as design tokens in `tailwind.config.js` under `ink` (dark backgrounds), `ivory` (light backgrounds), and `gold` (the accent scale), so you can retune the palette from one place.
+Dark mode is the default. The toggle in the navbar switches a `dark` class on `<html>` and persists the choice in `localStorage`. All colors are defined as design tokens in `tailwind.config.js` under `ink` (dark backgrounds), `ivory` (light backgrounds), and `white` (the accent scale), so you can retune the palette from one place.
 
 ## Accessibility Notes
 
 - Skip-to-content link for keyboard users
-- Visible gold focus rings on all interactive elements
+- Visible white focus rings on all interactive elements
 - Reduced motion is respected via `prefers-reduced-motion`
 - Form fields have associated labels and `aria-describedby` error messages
 - Icon-only buttons (theme toggle, mobile menu, social links) have `aria-label`s

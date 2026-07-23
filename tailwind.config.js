@@ -20,7 +20,7 @@ export default {
           raised: '#ffffff',
           line: '#ddd3ba'
         },
-        gold: {
+        white: {
           50: '#fbf6e9',
           100: '#f5e9c7',
           200: '#ead08c',
@@ -41,12 +41,12 @@ export default {
         widest2: '0.35em'
       },
       backgroundImage: {
-        'gold-gradient': 'linear-gradient(135deg, #f5e9c7 0%, #d4af37 45%, #9c7a24 100%)',
-        'gold-radial': 'radial-gradient(circle at 50% 50%, rgba(212,175,55,0.18), rgba(212,175,55,0) 70%)'
+        'white-gradient': 'linear-gradient(135deg, #f5e9c7 0%, #d4af37 45%, #9c7a24 100%)',
+        'white-radial': 'radial-gradient(circle at 50% 50%, rgba(212,175,55,0.18), rgba(212,175,55,0) 70%)'
       },
       boxShadow: {
-        gold: '0 0 0 1px rgba(212,175,55,0.35), 0 18px 40px -20px rgba(212,175,55,0.35)',
-        goldLg: '0 25px 60px -15px rgba(212,175,55,0.25)'
+        white: '0 0 0 1px rgba(212,175,55,0.35), 0 18px 40px -20px rgba(212,175,55,0.35)',
+        whiteLg: '0 25px 60px -15px rgba(212,175,55,0.25)'
       },
       animation: {
         'spin-slow': 'spin 18s linear infinite',
