@@ -54,7 +54,7 @@ export default function Contact() {
                       target="_blank"
                       rel="noreferrer noopener"
                       aria-label={social.label}
-                      className="flex h-11 w-11 items-center justify-center rounded-full border border-white-400/40 text-white-500 dark:text-gold-300 transition-colors hover:bg-gold-400/10"
+                      className="flex h-11 w-11 items-center justify-center rounded-full border border-white-400/40 text-white-500 dark:text-white-300 transition-colors hover:bg-white-400/10"
                     >
                       {social.icon}
                     </a>

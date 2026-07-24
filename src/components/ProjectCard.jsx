@@ -19,7 +19,7 @@ export default function ProjectCard({ project, index }) {
     />
   ) : (
     <>
-      <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_20%,rgba(212,175,55,0.25),transparent_55%)]" />
+      <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_20%,rgba(245, 243, 237, 0.25),transparent_55%)]" />
       <div className="absolute inset-0 flex items-center justify-center opacity-20 transition-opacity duration-500 group-hover:opacity-35">
         <span className="font-display text-7xl italic text-white-200">DC</span>
       </div>

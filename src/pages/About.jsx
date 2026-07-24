@@ -74,7 +74,7 @@ export default function About() {
 
           <div>
             <SectionHeading eyebrow="About Me" title="The person behind the work.">
-              I'm Daniel waida Founder of DIDON CREA8IVE, an independent freelancer, working
+              I'm Daniel waida a creative Graphic designer, an independent freelancer, working
               with founders and small studios who want their brand to feel
               considered, not templated. I trained as both a designer and a
               developer, which means I design with the constraints of code
@@ -86,8 +86,7 @@ export default function About() {
               Outside of client work, I write about the business side of
               design for younger designers starting out, and I spend an
               unreasonable amount of time thinking about typography and the
-              exact shade a gold accent should be. When I'm not at my desk,
-              you'll usually find me watching football.
+              exact shade a gold accent should be.
             </p>
 
             <div className="mt-10 grid grid-cols-3 gap-6 border-t border-white-400/20 pt-8 max-w-md">

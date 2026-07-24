@@ -5,7 +5,7 @@ import Logo from '../components/Logo.jsx'
 export default function Hero() {
   return (
     <section className="relative overflow-hidden px-6 pb-24 pt-10 sm:pt-16">
-      <div className="absolute inset-0 -z-10 bg-gold-radial" />
+      <div className="absolute inset-0 -z-10 bg-white-radial" />
       <div className="mx-auto grid max-w-6xl items-center gap-16 lg:grid-cols-[1.1fr_0.9fr]">
         <div>
           <motion.p
@@ -35,7 +35,7 @@ export default function Hero() {
             transition={{ duration: 0.7, delay: 0.2 }}
             className="mt-6 max-w-lg text-base sm:text-lg leading-relaxed text-ink/70 dark:text-ivory/65"
           >
-            I'm Daniel waida founder of DIDON CREA8IVE a designer and developer crafting bold brand identities and clean
+            I'm Daniel waida a creative Graphic designer and developer,i help in crafting bold brand identities and clean
             digital experiences, from the first sketch to shipped code.
           </motion.p>
 

@@ -36,7 +36,7 @@ export default function Home() {
               I work at the intersection of design and code, building brand
               identities, websites, and products for clients who want their
               presence online to feel as considered as their offline work.
-              My process favours restraint over noise — every gold accent on
+              My process favours restraint over noise every gold accent on
               this page, and on the sites I build, is placed on purpose.
             </SectionHeading>
             <Button to="/about" variant="ghost" className="mt-6 px-0">

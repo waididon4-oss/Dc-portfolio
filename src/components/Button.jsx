@@ -9,7 +9,7 @@ const variants = {
   outline:
     'border border-white-400/60 text-ink dark:text-ivory hover:bg-white-400/10 hover:border-white-400',
   ghost:
-    'text-white-600 dark:text-white-300 hover:text-gradiant white-700 dark:hover:text-white-200'
+    'text-white-600 dark:text-white-300 hover:text- white-700 dark:hover:text-white-200'
 }
 
 export default function Button({

@@ -16,21 +16,21 @@ export default {
         },
         ivory: {
           DEFAULT: '#f5f1e8',
-          soft: '#ece4d3',
+          soft: '#f8f7f5',
           raised: '#ffffff',
-          line: '#ddd3ba'
+          line: '#fffffe'
         },
         white: {
-          50: '#fbf6e9',
-          100: '#f5e9c7',
-          200: '#ead08c',
-          300: '#dfb85a',
-          400: '#d4af37',
-          500: '#b8932a',
-          600: '#9c7a24',
-          700: '#7a5e1c',
-          800: '#5c4715',
-          900: '#3d2f0e'
+          50: '#c9c9c9',
+          100: '#c9c9c9',
+          200: '#c9c9c9',
+          300: '#c9c8c8',
+          400: '#c9c9c9',
+          500: '#c9c9c9',
+          600: '#c9c9c9',
+          700: '#c9c9c9',
+          800: '#c9c8c7',
+          900: '#c9c9c9'
         }
       },
       fontFamily: {
@@ -41,12 +41,12 @@ export default {
         widest2: '0.35em'
       },
       backgroundImage: {
-        'white-gradient': 'linear-gradient(135deg, #f5e9c7 0%, #d4af37 45%, #9c7a24 100%)',
-        'white-radial': 'radial-gradient(circle at 50% 50%, rgba(212,175,55,0.18), rgba(212,175,55,0) 70%)'
+        'white-gradient': 'linear-gradient(135deg, #cfcfcd 0%, #bebdb6 45%, #d4d1ca 100%)',
+        'white-radial': 'radial-gradient(circle at 50% 50%, rgba(143, 142, 139, 0.18), rgba(153, 153, 153, 0) 70%)'
       },
       boxShadow: {
-        white: '0 0 0 1px rgba(212,175,55,0.35), 0 18px 40px -20px rgba(212,175,55,0.35)',
-        whiteLg: '0 25px 60px -15px rgba(212,175,55,0.25)'
+        white: '0 0 0 1px rgba(155, 154, 152, 0.35), 0 18px 40px -20px rgba(173, 172, 168, 0.35)',
+        whiteLg: '0 25px 60px -15px rgba(165, 163, 158, 0.25)'
       },
       animation: {
         'spin-slow': 'spin 18s linear infinite',

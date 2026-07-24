@@ -5,7 +5,7 @@ import { Image } from "lucide-react";
 export const projects = [
   {
     title: 'Birthday Celebration flyer.',
-    category: 'Poster Design',
+    category: 'Birthday Poster',
     description:
       'A vibrant birthday flyer designed to grab attention at a glance, balancing bold typography with a festive color palette to make the event details easy to read and exciting to look at..',
       image:"/project pic 3.png",
@@ -60,6 +60,36 @@ export const projects = [
       'A clean, professional business card layout designed to make a strong first impression.',
     image: '/business card.jpg',
     tags: ['Business Brand: Design',],
+    gradient: 'from-[#3d2f0e] via-[#0a0a0a] to-[#141414]',
+    link: 'https://wa.me/c/2349166965526'
+  },
+ {
+    title: 'Birthday flyer Design',
+    category: 'Birthday poster',
+    description:
+      'A Beautiful, premium birthday poster, designed to Miss Divine Okeke a creative Graphic designer for her birthday celebration.',
+    image: '/Divine birthday design.jpg',
+    tags: ['Birthday flyer: Design',],
+    gradient: 'from-[#3d2f0e] via-[#0a0a0a] to-[#141414]',
+    link: 'https://wa.me/c/2349166965526'
+  },
+ {
+    title: 'Marketing flyer Design',
+    category: 'Marketing Design',
+    description:
+      'A perfect, premium marketing flyer layout, designed not just to attract customer but speak for your brand.',
+    image: '/Nandas Merchandise .png',
+    tags: ['Business Brand: Design',],
+    gradient: 'from-[#3d2f0e] via-[#0a0a0a] to-[#141414]',
+    link: 'https://wa.me/c/2349166965526'
+  },
+ {
+    title: 'Birthday flyer Design',
+    category: 'Birthday Design',
+    description:
+      'A clean, premuim birthday poster, designed to MRS jennifer Emmanuel for her birthday celebration.',
+    image: '/jen Birthday flyer.jpg',
+    tags: ['Birthday flyer: Design',],
     gradient: 'from-[#3d2f0e] via-[#0a0a0a] to-[#141414]',
     link: 'https://wa.me/c/2349166965526'
   }

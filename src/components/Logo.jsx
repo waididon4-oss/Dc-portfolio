@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion'
 
 /**
- * The DC monogram — a circular gold medallion used as the brand's signature
+ * The DC monogram — a circular white medallion used as the brand's signature
  * element across the navbar, hero, and footer.
  *
  * size: pixel size of the medallion
@@ -16,7 +16,7 @@ export default function Logo({ size = 44, animated = false, className = '' }) {
     >
       {animated && (
         <motion.span
-          className="absolute inset-0 rounded-full border border-dashed border-gold-400/50"
+          className="absolute inset-0 rounded-full border border-dashed border-white-400/50"
           animate={{ rotate: 360 }}
           transition={{ duration: 40, repeat: Infinity, ease: 'linear' }}
         />
@@ -24,8 +24,8 @@ export default function Logo({ size = 44, animated = false, className = '' }) {
       <span
         className="absolute inset-[3px] rounded-full"
         style={{
-          background: 'linear-gradient(135deg, #1c1b18, #0a0a0a)',
-          boxShadow: '0 0 0 1px rgba(212,175,55,0.55), inset 0 0 12px rgba(212,175,55,0.18)'
+          background: 'linear-gradient(135deg, #0e0d0d, #0a0a0a)',
+          boxShadow: '0 0 0 1px rgba(245, 245, 245, 0.55), inset 0 0 12px rgba(243, 243, 243, 0.18)'
         }}
       />
       <span

@@ -17,7 +17,7 @@ export default function ThemeToggle() {
         animate={{ x: isDark ? 0 : 28 }}
         transition={{ type: 'spring', stiffness: 400, damping: 30 }}
       >
-        {isDark ? '☾' : '☀'}
+        {isDark ? '☾' : '$'}
       </motion.span>
     </button>
   )
