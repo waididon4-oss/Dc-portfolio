@@ -64,7 +64,7 @@ export default function About() {
             className="relative mx-auto h-72 w-72 rounded-full border border-white-400/30 bg-white-radial sm:h-80 sm:w-80"
             
           >
-            <img src="/Dc About 2 profile.jpg" alt="Photo of Didon, founder of DIDON CREA8IVE"
+            <img src="/Real Ab profile.jpg" alt="Photo of Didon, founder of DIDON CREA8IVE"
              className="Absolute inset-6 h-full w-full rounded-xL object-cover"/>
             <span className="absolute -bottom-3 left-1/2 -translate-x-1/2 rounded-xL
              border border-white-400/40 bg-ivory dark:bg-ink px-5 py-2 text-xs eyebrow text-white-500 dark:text-white-300">
