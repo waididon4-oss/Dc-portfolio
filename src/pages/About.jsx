@@ -4,33 +4,33 @@ import Button from '../components/Button.jsx'
 
 const timeline = [
   {
-    year: 'jun 2025 — Present',
-    role: 'Founder.',
-    org: 'DIDON CREA8IVE Studio',
+    year: 'Jun 2026 – Present',
+    role: 'Industrial Training — Software Development',
+    org: 'Modibbo Adama University, Yola',
     description:
-      'Running an independent studio building brand identities and digital products for boutique businesses and founders.'
+      'Hands-on training in web development — building real projects using HTML, CSS, JavaScript, React, and Node.js.',
   },
   {
-    year: 'Jan 2025 —jun 2025',
-    role: 'Senior Product Designer',
-    org: 'self-employed.',
+    year: 'Nov 2024 – Present',
+    role: 'Founder & Designer',
+    org: 'DIDON CREA8IVE',
     description:
-      'Led design for a suite of fintech dashboards, establishing the company\u2019s first accessible design system.'
+      'Running a freelance design studio handling flyers, logos, brand identities, and websites for clients in Yola and beyond.',
   },
   {
-    year: 'oct 2024',
-    role: 'Brand identity Design.',
-    org: 'self-employed',
-    description:
-      'Designed and shipped in creating visuals identity of a brand for business or organization.'
-  },
-  {
-    year: 'july 2024',
-    role: 'Started Freelancing',
+    year: 'Nov 2024',
+    role: 'Started Graphic Design',
     org: 'Self-employed',
     description:
-      'Took on first paid design projects while studying, focused on small business branding.'
-  }
+      'Picked up graphic design and started taking on client work — flyers, business cards, and branding — while studying Computer Science at MAU.',
+  },
+  {
+    year: '2023 – Present',
+    role: 'B.Sc. Computer Science',
+    org: 'Modibbo Adama University, Yola',
+    description:
+      'Currently studying Computer Science, building skills in programming, systems design, and software development.',
+  },
 ]
 
 const values = [
