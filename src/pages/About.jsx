@@ -5,24 +5,24 @@ import Button from '../components/Button.jsx'
 const timeline = [
   {
     year: 'Jun 2026 – Present',
-    role: 'Industrial Training — Software Development',
+    role: 'Industrial Training Software Development',
     org: 'Modibbo Adama University, Yola',
     description:
-      'Hands-on training in web development — building real projects using HTML, CSS, JavaScript, React, and Node.js.',
+      'Hands on training in web development building real projects using HTML, CSS, JavaScript, React, and Node.js.',
   },
   {
     year: 'Nov 2024 – Present',
-    role: 'Founder & Designer',
-    org: 'DIDON CREA8IVE',
+    role: 'Professional Graphic Designer',
+    org: 'Self-employed',
     description:
-      'Running a freelance design studio handling flyers, logos, brand identities, and websites for clients in Yola and beyond.',
+      'Providing professional graphic design services inluding logo design, brand identity, social media graphics, flyer and promotional materials for clients.',
   },
   {
     year: 'Nov 2024',
     role: 'Started Graphic Design',
     org: 'Self-employed',
     description:
-      'Picked up graphic design and started taking on client work — flyers, business cards, and branding — while studying Computer Science at MAU.',
+      'Picked up graphic design and started taking on client work flyers, business cards, and branding while studying Computer Science at MAU.',
   },
   {
     year: '2023 – Present',
