@@ -11,14 +11,14 @@ const timeline = [
       'Hands on training in web development building real projects using HTML, CSS, JavaScript, React, and Node.js.',
   },
   {
-    year: 'Nov 2024 – Present',
+    year: 'Nov 2025 – Present',
     role: 'Professional Graphic Designer',
     org: 'Self-employed',
     description:
       'Providing professional graphic design services inluding logo design, brand identity, social media graphics, flyer and promotional materials for clients.',
   },
   {
-    year: 'Nov 2024',
+    year: 'Oct 2024',
     role: 'Started Graphic Design',
     org: 'Self-employed',
     description:
@@ -137,7 +137,7 @@ export default function About() {
         </section>
 
         <section className="mt-28">
-          <SectionHeading eyebrow="Journey" title="Where I've worked" align="center" />
+          <SectionHeading eyebrow="BACKGROUND" title="Experience & Training" align="center" />
           <div className="relative mt-14 mx-auto max-w-3xl">
             <div className="absolute left-[7px] top-2 bottom-2 w-px bg-white-400/30 sm:left-1/2" />
             <div className="space-y-12">
