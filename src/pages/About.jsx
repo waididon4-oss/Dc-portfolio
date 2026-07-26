@@ -15,7 +15,7 @@ const timeline = [
     role: 'Professional Graphic Designer',
     org: 'Self-employed',
     description:
-      'Providing professional graphic design services inluding logo design, brand identity, social media graphics, flyer and promotional materials for clients.',
+      'Providing professional graphic design services including logo design, brand identity, social media graphics, flyer and promotional materials for clients.',
   },
   {
     year: 'Oct 2024',

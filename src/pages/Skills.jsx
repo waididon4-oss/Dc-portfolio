@@ -6,6 +6,8 @@ import { skillGroups } from '../data/skills.js'
 const tools = [
   'PexilLab App',
   'Adobe Photoshop',
+  'Adobe Lightroom Classic',
+  'Adobe Illustrator',
 ]
 
 export default function Skills() {
