@@ -19,8 +19,7 @@ export default function Projects() {
     <div className="px-6 py-16">
       <div className="mx-auto max-w-6xl">
         <SectionHeading eyebrow="Selected Work" title="Projects" align="center">
-          A curated selection of brand, product, and web design work,
-          spanning real-estate, fintech, retail, and wellness.
+        A selection of graphic design and web development work flyers, logos, brand identities, and digital projects.
         </SectionHeading>
 
         <div className="mt-10 flex flex-wrap justify-center gap-2" role="group" aria-label="Filter projects by tag">
