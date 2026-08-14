@@ -18,7 +18,7 @@ export const projects = [
     category: 'Adverts Flyer Designs',
     description:
       'A clean promotional flyer built to advertise a brands products clearly and attractively.',
-      image:"/project pic 4.png",
+      image:"event flyer proj.png",
     tags: ['Marketing Brand Desing',],
     gradient: 'from-[#1c1b18] via-[#2b2924] to-[#0a0a0a]',
     link: "https://wa.me/c/2349166965526"
@@ -54,12 +54,12 @@ export const projects = [
     link: 'https://wa.me/c/2349166965526'
   },
   {
-    title: 'Business Card Design',
-    category: 'Print Design',
+    title: 'DIDON CR8IVE Brand Logo.',
+    category: 'Logo Design',
     description:
-      'A clean, professional business card layout designed to make a strong first impression.',
-    image: '/business card.jpg',
-    tags: ['Business Brand Design',],
+      'A clean, personal brand logo design for DIDON CR8IVE Brand layout designed to make a strong first impression.',
+    image: '/Logo design.png',
+    tags: ['Logo Design Brand identity',],
     gradient: 'from-[#3d2f0e] via-[#0a0a0a] to-[#141414]',
     link: 'https://wa.me/c/2349166965526'
   },
@@ -92,5 +92,34 @@ export const projects = [
     tags: ['Birthday flyer Design',],
     gradient: 'from-[#3d2f0e] via-[#0a0a0a] to-[#141414]',
     link: 'https://wa.me/c/2349166965526'
-  }
+  },
+  {
+    title: 'content creator poster',
+    category: 'Personal Branding',
+    description:
+      ' A bold personal brand poster design for a content creator, combining portrait photography with dramatic typography and gold metallic text effect. ',
+    image: '/content creator.jpg',
+    tags: ['Personal Branding, poster design ',],
+    gradient: 'from-[#3d2f0e] via-[#0a0a0a] to-[#141414]',
+    link: 'https://wa.me/c/2349166965526'
+  },
+  {
+    title: 'NANS Campign poster _',
+    category: 'Political Compaign Design',
+    description:
+      ' A bold campaign poster designed for a NANS Vice presidential candidate, built around strong typography and a high contrast green and black layout. ',
+    image: '/event flyer.png',
+    tags: ['poster design, campaign design',],
+    gradient: 'from-[#3d2f0e] via-[#0a0a0a] to-[#141414]',
+    link: 'https://wa.me/c/2349166965526'
+  },
+  {
+  title: 'Birthday Poster — Bisola Aiyeola',
+  category: 'Celebrity Poster Design',
+  description: 'A vibrant birthday poster designed for actress and brand influencer Bisola Aiyeola, featuring layered portrait photography with a bold red theme and dynamic typography.',
+  image: '/birthday poster.jpg',
+  tags: ['Poster Design', 'Birthday Design'],
+  gradient: 'from-[#6b0000] via-[#1c1b18] to-[#0a0a0a]',
+  link: 'https://wa.me/c/2349166965526'
+},
 ]
