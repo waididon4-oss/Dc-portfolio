@@ -1,55 +1,53 @@
-import { useMemo, useState } from 'react'
+import { useMemo } from 'react'
 import SectionHeading from '../components/SectionHeading.jsx'
 import ProjectCard from '../components/ProjectCard.jsx'
 import { projects } from '../data/projects.js'
 
 export default function Projects() {
-  const allTags = useMemo(() => {
-    const tags = new Set(['All'])
-    projects.forEach((p) => p.tags.forEach((t) => tags.add(t)))
-    return Array.from(tags)
-  }, [])
+  const designProjects = useMemo(
+    () => projects.filter((p) => p.category !== 'Web Development'),
+    []
+  )
 
-  const [activeTag, setActiveTag] = useState('All')
-
-  const filtered =
-    activeTag === 'All' ? projects : projects.filter((p) => p.tags.includes(activeTag))
+  const devProjects = useMemo(
+    () => projects.filter((p) => p.category === 'Web Development'),
+    []
+  )
 
   return (
     <div className="px-6 py-16">
       <div className="mx-auto max-w-6xl">
-        <SectionHeading eyebrow="Selected Work" title="Projects" align="center">
-        A selection of graphic design and web development work flyers, logos, brand identities, and digital projects.
+        <SectionHeading
+          eyebrow="Selected Work"
+          title="Projects"
+        >
+          A selection of graphic design and web development work.
         </SectionHeading>
 
-        <div className="mt-10 flex flex-wrap justify-center gap-2" role="group" aria-label="Filter projects by tag">
-          {allTags.map((tag) => (
-            <button
-              key={tag}
-              onClick={() => setActiveTag(tag)}
-              aria-pressed={activeTag === tag}
-              className={`rounded-full border px-4 py-1.5 text-sm transition-colors ${
-                activeTag === tag
-                  ? 'border-white-400 bg-white-400/15 text-white-600 dark:text-white-200'
-                  : 'border-white-400/25 text-ink/65 dark:text-ivory/65 hover:border-white-400/60'
-              }`}
-            >
-              {tag}
-            </button>
-          ))}
+        {/* Graphic Design Section */}
+        <div className="mt-16">
+          <h2 className="mb-8 text-2xl font-bold tracking-wide uppercase border-b border-white/10 pb-3">
+            Graphic Design
+          </h2>
+          <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+            {designProjects.map((project) => (
+              <ProjectCard key={project.title} project={project} />
+            ))}
+          </div>
         </div>
 
-        <div className="mt-14 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
-          {filtered.map((project, i) => (
-            <ProjectCard key={project.title} project={project} index={i} />
-          ))}
+        {/* Web Development Section */}
+        <div className="mt-20">
+          <h2 className="mb-8 text-2xl font-bold tracking-wide uppercase border-b border-white/10 pb-3">
+            Web Development
+          </h2>
+          <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+            {devProjects.map((project) => (
+              <ProjectCard key={project.title} project={project} />
+            ))}
+          </div>
         </div>
 
-        {filtered.length === 0 && (
-          <p className="mt-12 text-center text-ink/60 dark:text-ivory/60">
-            No projects match this filter yet.
-          </p>
-        )}
       </div>
     </div>
   )

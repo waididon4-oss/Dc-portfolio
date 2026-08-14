@@ -104,7 +104,7 @@ export const projects = [
     link: 'https://wa.me/c/2349166965526'
   },
   {
-    title: 'NANS Campign poster _',
+    title: 'NANS Campign poster',
     category: 'Political Compaign Design',
     description:
       ' A bold campaign poster designed for a NANS Vice presidential candidate, built around strong typography and a high contrast green and black layout. ',
@@ -114,12 +114,39 @@ export const projects = [
     link: 'https://wa.me/c/2349166965526'
   },
   {
-  title: 'Birthday Poster — Bisola Aiyeola',
+  title: 'Birthday Poster  Bisola Aiyeola',
   category: 'Celebrity Poster Design',
   description: 'A vibrant birthday poster designed for actress and brand influencer Bisola Aiyeola, featuring layered portrait photography with a bold red theme and dynamic typography.',
   image: '/birthday poster.jpg',
   tags: ['Poster Design', 'Birthday Design'],
   gradient: 'from-[#6b0000] via-[#1c1b18] to-[#0a0a0a]',
+  link: 'https://wa.me/c/2349166965526'
+},
+{
+  title: 'SafeVoice Survey Platform',
+  category: 'Web Development',
+  description: 'A frontend web application built for academic Safty, allowing both gender to report experiences of harassment. Built with React, Vite, and Tailwind CSS, with form submissions handled via Formspree.',
+  image: '/safevoice 01.png',
+  tags: ['Web Development', 'React', 'Tailwind'],
+  gradient: 'from-[#0a1628] via-[#1c1b18] to-[#0a0a0a]',
+  link: 'https://safe-voice-m3hv.vercel.app'
+},
+{
+  title: 'DC Portfolio Personal Portfolio Website',
+  category: 'Web Development',
+  description: 'A multi-page personal portfolio site built with React, Vite, Tailwind CSS, and Framer Motion. Deployed live on Vercel with a working contact form via Formspree.',
+  image: '/dc 01.png',
+  tags: ['Web Development', 'React', 'Framer Motion'],
+  gradient: 'from-[#1c1b18] via-[#2b2924] to-[#0a0a0a]',
+  link: 'https://wa.me/c/2349166965526'
+},
+{
+  title: 'MCD to DOC File Converter App',
+  category: 'Web Development',
+  description: 'A desktop file converter application built with HTML, CSS, and JavaScript, wrapped in an Electron shell. Allows users to convert MCD files to DOC format directly from their desktop without needing an internet connection.',
+  image: '/MD to DC.jpg',
+  tags: ['Web Development', 'JavaScript', 'Electron'],
+  gradient: 'from-[#0a1628] via-[#1c1b18] to-[#0a0a0a]',
   link: 'https://wa.me/c/2349166965526'
 },
 ]
