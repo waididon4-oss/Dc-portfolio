@@ -1,4 +1,4 @@
-import { mages } from "lucide-react";
+import { Images } from "lucide-react";
 
 export const projects = [
   {
