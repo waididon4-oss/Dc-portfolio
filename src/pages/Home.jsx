@@ -1,5 +1,7 @@
 import { motion } from 'framer-motion'
 import Hero from '../sections/Hero.jsx'
+import Stats from '../sections/Stats.jsx'
+import Services from '../sections/Services.jsx'
 import SectionHeading from '../components/SectionHeading.jsx'
 import Button from '../components/Button.jsx'
 import SkillRing from '../components/SkillRing.jsx'
@@ -14,6 +16,8 @@ export default function Home() {
   return (
     <>
       <Hero />
+      <Stats/>
+      <Services/>
 
       <section className="px-6 py-20">
         <div className="mx-auto max-w-6xl grid gap-12 lg:grid-cols-[0.9fr_1.1fr] items-center">

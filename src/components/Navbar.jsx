@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react'
 import { NavLink } from 'react-router-dom'
 import { AnimatePresence, motion } from 'framer-motion'
 import Logo from './Logo.jsx'
+import ThemeToggle from './ThemeToggle.jsx'
 
 const links = [
   { to: '/', label: 'Home' },
@@ -71,6 +72,11 @@ export default function Navbar() {
               )}
             </NavLink>
           ))}
+                      </div>
+
+          <ThemeToggle />
+
+          <div className="flex items-center gap-3 md:hidden">
         </div>
 
         <div className="flex items-center gap-3 md:hidden">
